@@ -18,7 +18,7 @@ function myFunction() {
     var taxFixed = tax.toFixed(2);
     var totalFixed = total.toFixed(2);
     var totalCart = tax + total;
-    var totalCartFixed = tax.toFixed(2);
+    var totalCartFixed = totalCart.toFixed(2);
 	window.alert("The total is: "+"$ "+ totalFixed + " with a tax of $" + taxFixed + " totaling to : $" + totalCartFixed);
     }
    }
